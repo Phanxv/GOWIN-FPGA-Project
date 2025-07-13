@@ -1,0 +1,13 @@
+-d E:\Works\GOWIN FPGA Project\blink\impl\gwsynthesis\blink.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst E:\Works\GOWIN FPGA Project\blink\src\top_module.cst
+-cfg E:\Works\GOWIN FPGA Project\blink\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

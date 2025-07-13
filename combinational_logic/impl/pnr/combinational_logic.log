@@ -1,0 +1,27 @@
+Reading netlist file: "E:\Works\GOWIN FPGA Project\combinational_logic\impl\gwsynthesis\combinational_logic.vg"
+Parsing netlist file "E:\Works\GOWIN FPGA Project\combinational_logic\impl\gwsynthesis\combinational_logic.vg" completed
+Processing netlist completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "E:\Works\GOWIN FPGA Project\combinational_logic\impl\pnr\combinational_logic.power.html" completed
+Generate file "E:\Works\GOWIN FPGA Project\combinational_logic\impl\pnr\combinational_logic.pin.html" completed
+Generate file "E:\Works\GOWIN FPGA Project\combinational_logic\impl\pnr\combinational_logic.rpt.html" completed
+Generate file "E:\Works\GOWIN FPGA Project\combinational_logic\impl\pnr\combinational_logic.rpt.txt" completed
+Generate file "E:\Works\GOWIN FPGA Project\combinational_logic\impl\pnr\combinational_logic.tr.html" completed
+Wed Jan  1 20:42:17 2025
+

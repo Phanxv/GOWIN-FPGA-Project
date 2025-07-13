@@ -1,0 +1,12 @@
+-d E:\Works\GOWIN FPGA Project\combinational_logic\impl\gwsynthesis\combinational_logic.vg
+-p GW1N-9C-QFN48-6
+-pn GW1N-LV9QN48C6/I5
+-cfg E:\Works\GOWIN FPGA Project\combinational_logic\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

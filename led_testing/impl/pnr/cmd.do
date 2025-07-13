@@ -1,0 +1,13 @@
+-d E:\Works\GOWIN FPGA Project\led_testing\impl\gwsynthesis\led_testing.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst E:\Works\GOWIN FPGA Project\led_testing\src\counter.cst
+-cfg E:\Works\GOWIN FPGA Project\led_testing\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "E:/Works/GOWIN FPGA Project/blink/src/top_module.sv",
+  "InstLine" : 1,
+  "InstName" : "top_module",
+  "ModuleFile" : "E:/Works/GOWIN FPGA Project/blink/src/top_module.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_module",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/Works/GOWIN FPGA Project/blink/src/top_module.sv",
+    "InstLine" : 19,
+    "InstName" : "inst_0",
+    "ModuleFile" : "E:/Works/GOWIN FPGA Project/blink/src/timer.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "timer"
+   }
+  ]
+ }
+]
