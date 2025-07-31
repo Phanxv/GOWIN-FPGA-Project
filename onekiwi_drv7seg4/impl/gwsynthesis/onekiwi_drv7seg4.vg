@@ -1,0 +1,257 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 (64-bit)"
+//Wed Jul 30 15:58:26 2025
+
+//Source file index table:
+//file0 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_drv7seg4/src/drv7seg4.v"
+//file1 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_drv7seg4/src/test_drv7seg4.sv"
+`timescale 100 ps/100 ps
+module drv7seg4 (
+  in_d,
+  seg_d
+)
+;
+input [3:0] in_d;
+output [7:1] seg_d;
+wire VCC;
+wire GND;
+  LUT4 seg_7_s16 (
+    .F(seg_d[7]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(in_d[3]) 
+);
+defparam seg_7_s16.INIT=16'hD7ED;
+  LUT4 seg_6_s16 (
+    .F(seg_d[6]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(in_d[3]) 
+);
+defparam seg_6_s16.INIT=16'h279F;
+  LUT4 seg_5_s16 (
+    .F(seg_d[5]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(in_d[3]) 
+);
+defparam seg_5_s16.INIT=16'h2FFB;
+  LUT4 seg_4_s16 (
+    .F(seg_d[4]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(in_d[3]) 
+);
+defparam seg_4_s16.INIT=16'h7B6D;
+  LUT4 seg_3_s16 (
+    .F(seg_d[3]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(in_d[3]) 
+);
+defparam seg_3_s16.INIT=16'hFD45;
+  LUT4 seg_2_s16 (
+    .F(seg_d[2]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(in_d[3]) 
+);
+defparam seg_2_s16.INIT=16'hDF71;
+  LUT4 seg_1_s16 (
+    .F(seg_d[1]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(in_d[3]) 
+);
+defparam seg_1_s16.INIT=16'hEF7C;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* drv7seg4 */
+module test_drv7seg4 (
+  in,
+  sel,
+  dp,
+  seg,
+  led,
+  dig
+)
+;
+input [3:0] in;
+input [3:0] sel;
+input dp;
+output [7:0] seg;
+output [7:0] led;
+output [3:0] dig;
+wire dp_d;
+wire seg_d_0_5;
+wire led_d_3_4;
+wire led_d_2_4;
+wire led_d_1_4;
+wire led_d_0_4;
+wire [3:0] in_d;
+wire [3:0] dig_d;
+wire [7:1] seg_d;
+wire VCC;
+wire GND;
+  IBUF in_0_ibuf (
+    .O(in_d[0]),
+    .I(in[0]) 
+);
+  IBUF in_1_ibuf (
+    .O(in_d[1]),
+    .I(in[1]) 
+);
+  IBUF in_2_ibuf (
+    .O(in_d[2]),
+    .I(in[2]) 
+);
+  IBUF in_3_ibuf (
+    .O(in_d[3]),
+    .I(in[3]) 
+);
+  IBUF sel_0_ibuf (
+    .O(dig_d[0]),
+    .I(sel[0]) 
+);
+  IBUF sel_1_ibuf (
+    .O(dig_d[1]),
+    .I(sel[1]) 
+);
+  IBUF sel_2_ibuf (
+    .O(dig_d[2]),
+    .I(sel[2]) 
+);
+  IBUF sel_3_ibuf (
+    .O(dig_d[3]),
+    .I(sel[3]) 
+);
+  IBUF dp_ibuf (
+    .O(dp_d),
+    .I(dp) 
+);
+  OBUF seg_0_obuf (
+    .O(seg[0]),
+    .I(seg_d_0_5) 
+);
+  OBUF seg_1_obuf (
+    .O(seg[1]),
+    .I(seg_d[1]) 
+);
+  OBUF seg_2_obuf (
+    .O(seg[2]),
+    .I(seg_d[2]) 
+);
+  OBUF seg_3_obuf (
+    .O(seg[3]),
+    .I(seg_d[3]) 
+);
+  OBUF seg_4_obuf (
+    .O(seg[4]),
+    .I(seg_d[4]) 
+);
+  OBUF seg_5_obuf (
+    .O(seg[5]),
+    .I(seg_d[5]) 
+);
+  OBUF seg_6_obuf (
+    .O(seg[6]),
+    .I(seg_d[6]) 
+);
+  OBUF seg_7_obuf (
+    .O(seg[7]),
+    .I(seg_d[7]) 
+);
+  OBUF led_0_obuf (
+    .O(led[0]),
+    .I(led_d_0_4) 
+);
+  OBUF led_1_obuf (
+    .O(led[1]),
+    .I(led_d_1_4) 
+);
+  OBUF led_2_obuf (
+    .O(led[2]),
+    .I(led_d_2_4) 
+);
+  OBUF led_3_obuf (
+    .O(led[3]),
+    .I(led_d_3_4) 
+);
+  OBUF led_4_obuf (
+    .O(led[4]),
+    .I(dig_d[0]) 
+);
+  OBUF led_5_obuf (
+    .O(led[5]),
+    .I(dig_d[1]) 
+);
+  OBUF led_6_obuf (
+    .O(led[6]),
+    .I(dig_d[2]) 
+);
+  OBUF led_7_obuf (
+    .O(led[7]),
+    .I(dig_d[3]) 
+);
+  OBUF dig_0_obuf (
+    .O(dig[0]),
+    .I(dig_d[0]) 
+);
+  OBUF dig_1_obuf (
+    .O(dig[1]),
+    .I(dig_d[1]) 
+);
+  OBUF dig_2_obuf (
+    .O(dig[2]),
+    .I(dig_d[2]) 
+);
+  OBUF dig_3_obuf (
+    .O(dig[3]),
+    .I(dig_d[3]) 
+);
+  INV seg_d_0_s0 (
+    .O(seg_d_0_5),
+    .I(dp_d) 
+);
+  INV led_d_3_s0 (
+    .O(led_d_3_4),
+    .I(in_d[3]) 
+);
+  INV led_d_2_s0 (
+    .O(led_d_2_4),
+    .I(in_d[2]) 
+);
+  INV led_d_1_s0 (
+    .O(led_d_1_4),
+    .I(in_d[1]) 
+);
+  INV led_d_0_s0 (
+    .O(led_d_0_4),
+    .I(in_d[0]) 
+);
+  drv7seg4 drv7seg4_inst1 (
+    .in_d(in_d[3:0]),
+    .seg_d(seg_d[7:1])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* test_drv7seg4 */

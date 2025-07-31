@@ -1,9 +1,9 @@
 [
  {
-  "InstFile" : "E:/Works/GOWIN FPGA Project/led_testing/src/counter.v",
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/led_testing/src/counter.v",
   "InstLine" : 1,
   "InstName" : "counter",
-  "ModuleFile" : "E:/Works/GOWIN FPGA Project/led_testing/src/counter.v",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/led_testing/src/counter.v",
   "ModuleLine" : 1,
   "ModuleName" : "counter"
  }

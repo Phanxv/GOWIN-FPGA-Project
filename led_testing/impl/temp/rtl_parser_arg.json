@@ -2,7 +2,7 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "E:/Works/GOWIN FPGA Project/led_testing/src/counter.v",
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/led_testing/src/counter.v",
    "Type" : "verilog"
   }
  ],
@@ -10,7 +10,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "E:/Works/GOWIN FPGA Project/led_testing/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/led_testing/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

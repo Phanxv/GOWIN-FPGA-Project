@@ -1,0 +1,60 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+  "InstLine" : 1,
+  "InstName" : "test_mux7seg",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_mux7seg",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+    "InstLine" : 14,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+    "InstLine" : 16,
+    "InstName" : "drv7seg4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+    "InstLine" : 17,
+    "InstName" : "drv7seg4_inst2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+    "InstLine" : 18,
+    "InstName" : "drv7seg4_inst3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+    "InstLine" : 19,
+    "InstName" : "drv7seg4_inst4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+    "InstLine" : 21,
+    "InstName" : "mux7seg_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/mux7seg.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux7seg"
+   }
+  ]
+ }
+]

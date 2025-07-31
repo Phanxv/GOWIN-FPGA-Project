@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="test_drv7seg4" Lut="5" T_Lut="12(5)">
+ <SubModule name="drv7seg4_inst1" Lut="7" T_Lut="7(7)"/>
+</Module>

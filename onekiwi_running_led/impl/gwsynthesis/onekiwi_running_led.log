@@ -1,0 +1,5 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_running_led\src\running_led.sv'
+ERROR (EX0302) : No valid top module found
+GowinSynthesis finish

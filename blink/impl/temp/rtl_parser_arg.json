@@ -2,11 +2,11 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "E:/Works/GOWIN FPGA Project/blink/src/timer.sv",
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/blink/src/timer.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "E:/Works/GOWIN FPGA Project/blink/src/top_module.sv",
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/blink/src/top_module.sv",
    "Type" : "verilog"
   }
  ],
@@ -14,7 +14,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "E:/Works/GOWIN FPGA Project/blink/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/blink/impl/temp/rtl_parser.result",
  "Top" : "top_module",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"

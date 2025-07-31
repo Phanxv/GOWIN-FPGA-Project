@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_drv7seg4/src/test_drv7seg4.sv",
+  "InstLine" : 1,
+  "InstName" : "test_drv7seg4",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_drv7seg4/src/test_drv7seg4.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_drv7seg4",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_drv7seg4/src/test_drv7seg4.sv",
+    "InstLine" : 10,
+    "InstName" : "drv7seg4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_drv7seg4/src/drv7seg4.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   }
+  ]
+ }
+]

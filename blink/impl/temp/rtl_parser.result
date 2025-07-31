@@ -1,17 +1,17 @@
 [
  {
-  "InstFile" : "E:/Works/GOWIN FPGA Project/blink/src/top_module.sv",
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/blink/src/top_module.sv",
   "InstLine" : 1,
   "InstName" : "top_module",
-  "ModuleFile" : "E:/Works/GOWIN FPGA Project/blink/src/top_module.sv",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/blink/src/top_module.sv",
   "ModuleLine" : 1,
   "ModuleName" : "top_module",
   "SubInsts" : [
    {
-    "InstFile" : "E:/Works/GOWIN FPGA Project/blink/src/top_module.sv",
-    "InstLine" : 19,
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/blink/src/top_module.sv",
+    "InstLine" : 29,
     "InstName" : "inst_0",
-    "ModuleFile" : "E:/Works/GOWIN FPGA Project/blink/src/timer.sv",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/blink/src/timer.sv",
     "ModuleLine" : 1,
     "ModuleName" : "timer"
    }

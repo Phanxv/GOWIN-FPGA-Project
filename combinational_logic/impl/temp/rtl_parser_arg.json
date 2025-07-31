@@ -2,7 +2,7 @@
  "Device" : "GW1N-9C",
  "Files" : [
   {
-   "Path" : "E:/Works/GOWIN FPGA Project/combinational_logic/src/conbinational_test.v",
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/combinational_logic/src/conbinational_test.v",
    "Type" : "verilog"
   }
  ],
@@ -10,7 +10,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "E:/Works/GOWIN FPGA Project/combinational_logic/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/combinational_logic/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

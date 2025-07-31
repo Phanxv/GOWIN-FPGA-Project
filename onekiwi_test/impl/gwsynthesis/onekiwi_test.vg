@@ -1,0 +1,132 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 (64-bit)"
+//Wed Jul 30 13:54:33 2025
+
+//Source file index table:
+//file0 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_test/src/simple_io.sv"
+`timescale 100 ps/100 ps
+module simple_io (
+  tsw0,
+  led0
+)
+;
+input [7:0] tsw0;
+output [7:0] led0;
+wire led0_d_7_5;
+wire led0_d_6_4;
+wire led0_d_5_4;
+wire led0_d_4_4;
+wire led0_d_3_4;
+wire led0_d_2_4;
+wire led0_d_1_4;
+wire led0_d_0_4;
+wire [7:0] tsw0_d;
+wire VCC;
+wire GND;
+  IBUF tsw0_0_ibuf (
+    .O(tsw0_d[0]),
+    .I(tsw0[0]) 
+);
+  IBUF tsw0_1_ibuf (
+    .O(tsw0_d[1]),
+    .I(tsw0[1]) 
+);
+  IBUF tsw0_2_ibuf (
+    .O(tsw0_d[2]),
+    .I(tsw0[2]) 
+);
+  IBUF tsw0_3_ibuf (
+    .O(tsw0_d[3]),
+    .I(tsw0[3]) 
+);
+  IBUF tsw0_4_ibuf (
+    .O(tsw0_d[4]),
+    .I(tsw0[4]) 
+);
+  IBUF tsw0_5_ibuf (
+    .O(tsw0_d[5]),
+    .I(tsw0[5]) 
+);
+  IBUF tsw0_6_ibuf (
+    .O(tsw0_d[6]),
+    .I(tsw0[6]) 
+);
+  IBUF tsw0_7_ibuf (
+    .O(tsw0_d[7]),
+    .I(tsw0[7]) 
+);
+  OBUF led0_0_obuf (
+    .O(led0[0]),
+    .I(led0_d_0_4) 
+);
+  OBUF led0_1_obuf (
+    .O(led0[1]),
+    .I(led0_d_1_4) 
+);
+  OBUF led0_2_obuf (
+    .O(led0[2]),
+    .I(led0_d_2_4) 
+);
+  OBUF led0_3_obuf (
+    .O(led0[3]),
+    .I(led0_d_3_4) 
+);
+  OBUF led0_4_obuf (
+    .O(led0[4]),
+    .I(led0_d_4_4) 
+);
+  OBUF led0_5_obuf (
+    .O(led0[5]),
+    .I(led0_d_5_4) 
+);
+  OBUF led0_6_obuf (
+    .O(led0[6]),
+    .I(led0_d_6_4) 
+);
+  OBUF led0_7_obuf (
+    .O(led0[7]),
+    .I(led0_d_7_5) 
+);
+  INV led0_d_7_s0 (
+    .O(led0_d_7_5),
+    .I(tsw0_d[7]) 
+);
+  INV led0_d_6_s0 (
+    .O(led0_d_6_4),
+    .I(tsw0_d[6]) 
+);
+  INV led0_d_5_s0 (
+    .O(led0_d_5_4),
+    .I(tsw0_d[5]) 
+);
+  INV led0_d_4_s0 (
+    .O(led0_d_4_4),
+    .I(tsw0_d[4]) 
+);
+  INV led0_d_3_s0 (
+    .O(led0_d_3_4),
+    .I(tsw0_d[3]) 
+);
+  INV led0_d_2_s0 (
+    .O(led0_d_2_4),
+    .I(tsw0_d[2]) 
+);
+  INV led0_d_1_s0 (
+    .O(led0_d_1_4),
+    .I(tsw0_d[1]) 
+);
+  INV led0_d_0_s0 (
+    .O(led0_d_0_4),
+    .I(tsw0_d[0]) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* simple_io */
