@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="test_counter4bit_debounce" Lut="1" T_Register="23(0)" T_Lut="53(1)">
+ <SubModule name="clkdiv_inst1" Register="18" Lut="40" T_Register="18(18)" T_Lut="40(40)"/>
+ <SubModule name="debounce_inst1" Register="1" T_Register="1(1)"/>
+ <SubModule name="counter4bit_1" Lut="5" T_Register="4(0)" T_Lut="5(5)">
+  <SubModule name="dff4_inst1" Register="4" T_Register="4(4)"/>
+ </SubModule>
+ <SubModule name="drv7seg4_inst1" Lut="7" T_Lut="7(7)"/>
+</Module>

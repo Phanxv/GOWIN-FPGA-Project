@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_counter/src/top_module.sv",
+  "InstLine" : 1,
+  "InstName" : "top_module",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_counter/src/top_module.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_module",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_counter/src/top_module.sv",
+    "InstLine" : 21,
+    "InstName" : "drv7seg4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_counter/src/drv7seg4.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   }
+  ]
+ }
+]

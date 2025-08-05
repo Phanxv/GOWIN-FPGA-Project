@@ -1,0 +1,41 @@
+{
+ "Device" : "GW1N-1P5C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/dff4.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/counter4bit.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/drv7seg4.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/debounce.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit_debounce.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/clkdiv.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/impl/temp/rtl_parser.result",
+ "Top" : "test_counter4bit_debounce",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

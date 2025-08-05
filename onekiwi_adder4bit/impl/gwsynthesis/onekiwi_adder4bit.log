@@ -1,0 +1,44 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\half_adder.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\full_adder.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\add4bit.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\clkdiv.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\drv7seg4.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\mux7seg.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\test_add4bit.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\add4bit_hdl.sv'
+WARN  (EX3786) : Assignment to input 'sum'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\add4bit_hdl.sv":8)
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\test_add4bit_hdl.sv'
+Compiling module 'test_add4bit_hdl'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\test_add4bit_hdl.sv":1)
+Compiling module 'clkdiv'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\clkdiv.sv":1)
+Compiling module 'add4bit_hdl'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\add4bit_hdl.sv":1)
+Driving port 'sum[3]' is declared here("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\add4bit_hdl.sv":4)
+Port is declared here("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\add4bit_hdl.sv":4)
+Compiling module 'drv7seg4'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\drv7seg4.sv":1)
+Compiling module 'mux7seg'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\mux7seg.sv":1)
+WARN  (EX1998) : Net 'sum[3]' does not have a driver("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\test_add4bit_hdl.sv":11)
+NOTE  (EX0101) : Current top module is "test_add4bit_hdl"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "drv7seg4" instantiated to "drv7seg4_1" is swept in optimizing("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\test_add4bit_hdl.sv":20)
+WARN  (NL0002) : The module "drv7seg4" instantiated to "drv7seg4_2" is swept in optimizing("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\test_add4bit_hdl.sv":21)
+WARN  (NL0002) : The module "drv7seg4" instantiated to "drv7seg4_3" is swept in optimizing("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\test_add4bit_hdl.sv":22)
+WARN  (NL0002) : The module "drv7seg4" instantiated to "drv7seg4_4" is swept in optimizing("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\src\test_add4bit_hdl.sv":23)
+[95%] Generate netlist file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\impl\gwsynthesis\onekiwi_adder4bit.vg" completed
+[100%] Generate report file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_adder4bit\impl\gwsynthesis\onekiwi_adder4bit_syn.rpt.html" completed
+GowinSynthesis finish

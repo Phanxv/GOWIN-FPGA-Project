@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/mux2/src/test_mux2.sv",
+  "InstLine" : 1,
+  "InstName" : "test_mux2",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/mux2/src/test_mux2.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_mux2",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/mux2/src/test_mux2.sv",
+    "InstLine" : 11,
+    "InstName" : "mux2_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/mux2/src/mux2.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux2"
+   }
+  ]
+ }
+]

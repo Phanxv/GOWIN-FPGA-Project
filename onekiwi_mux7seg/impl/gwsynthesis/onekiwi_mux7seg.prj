@@ -4,10 +4,10 @@
     <Version>beta</Version>
     <Device id="GW1N-1P5C" package="QFN48XF" speed="7" partNumber="GW1N-UV1P5QN48XFC7/I6"/>
     <FileList>
-        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\src\mux7seg.sv" type="verilog"/>
         <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\src\clkdiv.sv" type="verilog"/>
-        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\src\test_mux7seg.sv" type="verilog"/>
         <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\src\drv7seg4.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\src\mux7seg.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\src\test_mux7seg.sv" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

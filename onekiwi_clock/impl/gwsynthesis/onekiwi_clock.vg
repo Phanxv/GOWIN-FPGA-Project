@@ -1,7 +1,7 @@
 //
 //Written by GowinSynthesis
 //Tool Version "V1.9.11.03 (64-bit)"
-//Thu Jul 31 17:50:07 2025
+//Fri Aug  1 16:12:41 2025
 
 //Source file index table:
 //file0 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_clock/src/top_module.v"
@@ -182,25 +182,25 @@ defparam n186_s3.INIT=16'h1000;
 defparam n186_s4.INIT=16'h0001;
   LUT4 n186_s5 (
     .F(n186_9),
-    .I0(clk_counter[21]),
-    .I1(clk_counter[22]),
-    .I2(clk_counter[23]),
-    .I3(clk_counter[20]) 
+    .I0(clk_counter[22]),
+    .I1(clk_counter[23]),
+    .I2(clk_counter[20]),
+    .I3(clk_counter[21]) 
 );
-defparam n186_s5.INIT=16'h0100;
+defparam n186_s5.INIT=16'h1000;
   LUT4 n186_s6 (
     .F(n186_10),
-    .I0(clk_counter[17]),
-    .I1(clk_counter[18]),
+    .I0(clk_counter[18]),
+    .I1(clk_counter[19]),
     .I2(clk_counter[16]),
-    .I3(clk_counter[19]) 
+    .I3(clk_counter[17]) 
 );
 defparam n186_s6.INIT=16'h1000;
   LUT4 n186_s7 (
     .F(n186_11),
-    .I0(clk_counter[4]),
-    .I1(clk_counter[5]),
-    .I2(clk_counter[6]),
+    .I0(clk_counter[5]),
+    .I1(clk_counter[6]),
+    .I2(clk_counter[4]),
     .I3(clk_counter[7]) 
 );
 defparam n186_s7.INIT=16'h1000;
@@ -211,13 +211,13 @@ defparam n186_s7.INIT=16'h1000;
     .I2(clk_counter[2]),
     .I3(clk_counter[3]) 
 );
-defparam n186_s8.INIT=16'h1000;
+defparam n186_s8.INIT=16'h0100;
   LUT4 n186_s9 (
     .F(n186_13),
-    .I0(clk_counter[14]),
+    .I0(clk_counter[15]),
     .I1(clk_counter[13]),
-    .I2(clk_counter[12]),
-    .I3(clk_counter[15]) 
+    .I2(clk_counter[14]),
+    .I3(clk_counter[12]) 
 );
 defparam n186_s9.INIT=16'h4000;
   LUT4 n186_s10 (

@@ -2,19 +2,19 @@
  "Device" : "GW1N-1P5C",
  "Files" : [
   {
-   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/mux7seg.sv",
-   "Type" : "verilog"
-  },
-  {
    "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/clkdiv.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/drv7seg4.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/drv7seg4.sv",
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/mux7seg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_mux7seg/src/test_mux7seg.sv",
    "Type" : "verilog"
   }
  ],

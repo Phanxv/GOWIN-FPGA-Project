@@ -1,0 +1,14 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-1P5C" pn="GW1N-UV1P5QN48XFC7/I6">gw1n1p5c-020</Device>
+    <FileList>
+        <File path="src/clkdiv.sv" type="file.verilog" enable="1"/>
+        <File path="src/seg7ani.sv" type="file.verilog" enable="1"/>
+        <File path="src/seg7ani_2seg.sv" type="file.verilog" enable="1"/>
+        <File path="src/seg7ani_4seg.sv" type="file.verilog" enable="1"/>
+        <File path="src/onekiwi_7seg_ani.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

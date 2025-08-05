@@ -1,0 +1,44 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
+  "InstLine" : 1,
+  "InstName" : "test_matrix_key",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_matrix_key",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
+    "InstLine" : 20,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
+    "InstLine" : 22,
+    "InstName" : "matrix_key_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/matrix_key.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "matrix_key"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
+    "InstLine" : 24,
+    "InstName" : "dec16to4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/dec16to4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "dec16to4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
+    "InstLine" : 26,
+    "InstName" : "drv7seg4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   }
+  ]
+ }
+]

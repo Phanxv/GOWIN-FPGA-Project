@@ -7,6 +7,7 @@ Running placement......
 [10%] Placement Phase 0 completed
 [20%] Placement Phase 1 completed
 [30%] Placement Phase 2 completed
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk27mhz" and "clk_270"
 [50%] Placement Phase 3 completed
 Running routing......
 [60%] Routing Phase 0 completed
@@ -25,5 +26,5 @@ Generate file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mu
 Generate file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\impl\pnr\onekiwi_mux7seg.rpt.html" completed
 Generate file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\impl\pnr\onekiwi_mux7seg.rpt.txt" completed
 Generate file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_mux7seg\impl\pnr\onekiwi_mux7seg.tr.html" completed
-Wed Jul 30 17:51:08 2025
+Mon Aug  4 11:26:12 2025
 

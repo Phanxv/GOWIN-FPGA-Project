@@ -1,0 +1,26 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/simple_io/src/simple_io.sv",
+  "InstLine" : 1,
+  "InstName" : "simple_io",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/simple_io/src/simple_io.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "simple_io"
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/simple_io/src/simple_io_ex1.sv",
+  "InstLine" : 1,
+  "InstName" : "simple_io_ex1",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/simple_io/src/simple_io_ex1.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "simple_io_ex1"
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/simple_io/src/simple_io_ex2.sv",
+  "InstLine" : 1,
+  "InstName" : "simple_io_ex2",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/simple_io/src/simple_io_ex2.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "simple_io_ex2"
+ }
+]

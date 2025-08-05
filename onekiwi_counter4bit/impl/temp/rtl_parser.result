@@ -1,0 +1,90 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit.sv",
+  "InstLine" : 1,
+  "InstName" : "test_counter4bit",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_counter4bit",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit.sv",
+    "InstLine" : 15,
+    "InstName" : "counter4bit_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/counter4bit.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "counter4bit",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/counter4bit.sv",
+      "InstLine" : 10,
+      "InstName" : "dff4_inst1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/dff4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "dff4"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit.sv",
+    "InstLine" : 17,
+    "InstName" : "drv7seg4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit_debounce.sv",
+  "InstLine" : 1,
+  "InstName" : "test_counter4bit_debounce",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit_debounce.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_counter4bit_debounce",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit_debounce.sv",
+    "InstLine" : 18,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit_debounce.sv",
+    "InstLine" : 20,
+    "InstName" : "debounce_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/debounce.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit_debounce.sv",
+    "InstLine" : 22,
+    "InstName" : "counter4bit_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/counter4bit.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "counter4bit",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/counter4bit.sv",
+      "InstLine" : 10,
+      "InstName" : "dff4_inst1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/dff4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "dff4"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/test_counter4bit_debounce.sv",
+    "InstLine" : 24,
+    "InstName" : "drv7seg4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_counter4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   }
+  ]
+ }
+]

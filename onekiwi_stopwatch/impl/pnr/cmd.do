@@ -1,0 +1,19 @@
+-d C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_stopwatch\impl\gwsynthesis\onekiwi_stopwatch.vg
+-p GW1N-1P5C-QFN48XF-7
+-pn GW1N-UV1P5QN48XFC7/I6
+-cst C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_stopwatch\src\onekiwi_stopwatch.cst
+-cfg C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_stopwatch\impl\pnr\device.cfg
+-gao C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_stopwatch\impl\gao\gao.v
+-gao_crc 1000100100110011
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 10
+-global_freq 50.000

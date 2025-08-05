@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/test_gate/src/test_gate.sv",
+  "InstLine" : 1,
+  "InstName" : "test_gate",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/test_gate/src/test_gate.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_gate",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/test_gate/src/test_gate.sv",
+    "InstLine" : 10,
+    "InstName" : "gates_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/test_gate/src/gates.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "gates"
+   }
+  ]
+ }
+]

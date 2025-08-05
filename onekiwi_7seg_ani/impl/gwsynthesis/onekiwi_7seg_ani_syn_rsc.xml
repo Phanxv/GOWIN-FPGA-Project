@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="seg7ani_4seg" Register="5" Lut="15" T_Register="32(5)" T_Alu="25(0)" T_Lut="34(15)">
+ <SubModule name="clkdiv_inst1" Register="27" Alu="25" Lut="19" T_Register="27(27)" T_Alu="25(25)" T_Lut="19(19)"/>
+</Module>

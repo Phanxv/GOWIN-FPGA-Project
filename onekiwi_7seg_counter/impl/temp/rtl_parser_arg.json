@@ -1,0 +1,21 @@
+{
+ "Device" : "GW1N-1P5C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_counter/src/drv7seg4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_counter/src/top_module.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_counter/impl/temp/rtl_parser.result",
+ "Top" : "top_module",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

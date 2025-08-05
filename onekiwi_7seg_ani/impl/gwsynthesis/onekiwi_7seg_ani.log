@@ -1,0 +1,28 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_7seg_ani\src\clkdiv.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_7seg_ani\src\seg7ani.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_7seg_ani\src\seg7ani_2seg.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_7seg_ani\src\seg7ani_4seg.sv'
+Compiling module 'seg7ani_4seg'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_7seg_ani\src\seg7ani_4seg.sv":1)
+Compiling module 'clkdiv'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_7seg_ani\src\clkdiv.sv":1)
+NOTE  (EX0101) : Current top module is "seg7ani_4seg"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_7seg_ani\impl\gwsynthesis\onekiwi_7seg_ani.vg" completed
+[100%] Generate report file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_7seg_ani\impl\gwsynthesis\onekiwi_7seg_ani_syn.rpt.html" completed
+GowinSynthesis finish

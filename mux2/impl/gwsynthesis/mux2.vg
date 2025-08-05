@@ -1,0 +1,81 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 (64-bit)"
+//Fri Aug  1 15:55:58 2025
+
+//Source file index table:
+//file0 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/mux2/src/mux2.sv"
+//file1 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/mux2/src/test_mux2.sv"
+`timescale 100 ps/100 ps
+module test_mux2 (
+  a,
+  b,
+  sel,
+  a_out,
+  b_out,
+  out
+)
+;
+input a;
+input b;
+input sel;
+output a_out;
+output b_out;
+output out;
+wire a_d;
+wire b_d;
+wire sel_d;
+wire out_d;
+wire a_out_d_5;
+wire b_out_d_4;
+wire VCC;
+wire GND;
+  IBUF a_ibuf (
+    .O(a_d),
+    .I(a) 
+);
+  IBUF b_ibuf (
+    .O(b_d),
+    .I(b) 
+);
+  IBUF sel_ibuf (
+    .O(sel_d),
+    .I(sel) 
+);
+  OBUF a_out_obuf (
+    .O(a_out),
+    .I(a_out_d_5) 
+);
+  OBUF b_out_obuf (
+    .O(b_out),
+    .I(b_out_d_4) 
+);
+  OBUF out_obuf (
+    .O(out),
+    .I(out_d) 
+);
+  LUT3 out_d_s (
+    .F(out_d),
+    .I0(b_d),
+    .I1(a_d),
+    .I2(sel_d) 
+);
+defparam out_d_s.INIT=8'h53;
+  INV a_out_d_s0 (
+    .O(a_out_d_5),
+    .I(a_d) 
+);
+  INV b_out_d_s0 (
+    .O(b_out_d_4),
+    .I(b_d) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* test_mux2 */

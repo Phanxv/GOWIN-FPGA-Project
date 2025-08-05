@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="test_decled" T_Lut="15(0)">
+ <SubModule name="decled_inst1" Lut="8" T_Lut="8(8)"/>
+ <SubModule name="drv7seg4_inst1" Lut="7" T_Lut="7(7)"/>
+</Module>

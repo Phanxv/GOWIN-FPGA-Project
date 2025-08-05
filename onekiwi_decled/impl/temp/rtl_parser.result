@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/test_decled.sv",
+  "InstLine" : 1,
+  "InstName" : "test_decled",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/test_decled.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_decled",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/test_decled.sv",
+    "InstLine" : 11,
+    "InstName" : "decled_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/decled.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "decled"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/test_decled.sv",
+    "InstLine" : 13,
+    "InstName" : "drv7seg4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   }
+  ]
+ }
+]

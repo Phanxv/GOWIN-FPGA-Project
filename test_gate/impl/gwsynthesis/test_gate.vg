@@ -1,0 +1,141 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 (64-bit)"
+//Fri Aug  1 15:45:11 2025
+
+//Source file index table:
+//file0 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/test_gate/src/test_gate.sv"
+//file1 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/test_gate/src/gates.sv"
+`timescale 100 ps/100 ps
+module gates (
+  a_d,
+  b_d,
+  and_out_Z,
+  xor_out_Z,
+  or_out_Z
+)
+;
+input a_d;
+input b_d;
+output and_out_Z;
+output xor_out_Z;
+output or_out_Z;
+wire VCC;
+wire GND;
+  LUT2 and_out_Z_s (
+    .F(and_out_Z),
+    .I0(a_d),
+    .I1(b_d) 
+);
+defparam and_out_Z_s.INIT=4'h8;
+  LUT2 xor_out_Z_s0 (
+    .F(xor_out_Z),
+    .I0(a_d),
+    .I1(b_d) 
+);
+defparam xor_out_Z_s0.INIT=4'h6;
+  LUT2 or_out_Z_s0 (
+    .F(or_out_Z),
+    .I0(a_d),
+    .I1(b_d) 
+);
+defparam or_out_Z_s0.INIT=4'hE;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* gates */
+module test_gate (
+  a,
+  b,
+  leds
+)
+;
+input a;
+input b;
+output [7:0] leds;
+wire a_d;
+wire b_d;
+wire and_out_Z;
+wire xor_out_Z;
+wire or_out_Z;
+wire [7:5] leds_d;
+wire VCC;
+wire GND;
+  IBUF a_ibuf (
+    .O(a_d),
+    .I(a) 
+);
+  IBUF b_ibuf (
+    .O(b_d),
+    .I(b) 
+);
+  OBUF leds_0_obuf (
+    .O(leds[0]),
+    .I(xor_out_Z) 
+);
+  OBUF leds_1_obuf (
+    .O(leds[1]),
+    .I(or_out_Z) 
+);
+  OBUF leds_2_obuf (
+    .O(leds[2]),
+    .I(and_out_Z) 
+);
+  OBUF leds_3_obuf (
+    .O(leds[3]),
+    .I(a_d) 
+);
+  OBUF leds_4_obuf (
+    .O(leds[4]),
+    .I(VCC) 
+);
+  OBUF leds_5_obuf (
+    .O(leds[5]),
+    .I(leds_d[5]) 
+);
+  OBUF leds_6_obuf (
+    .O(leds[6]),
+    .I(leds_d[6]) 
+);
+  OBUF leds_7_obuf (
+    .O(leds[7]),
+    .I(leds_d[7]) 
+);
+  LUT2 leds_d_6_s (
+    .F(leds_d[6]),
+    .I0(a_d),
+    .I1(b_d) 
+);
+defparam leds_d_6_s.INIT=4'h1;
+  LUT2 leds_d_5_s (
+    .F(leds_d[5]),
+    .I0(a_d),
+    .I1(b_d) 
+);
+defparam leds_d_5_s.INIT=4'h9;
+  LUT2 leds_d_7_s0 (
+    .F(leds_d[7]),
+    .I0(a_d),
+    .I1(b_d) 
+);
+defparam leds_d_7_s0.INIT=4'h7;
+  gates gates_inst1 (
+    .a_d(a_d),
+    .b_d(b_d),
+    .and_out_Z(and_out_Z),
+    .xor_out_Z(xor_out_Z),
+    .or_out_Z(or_out_Z)
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* test_gate */

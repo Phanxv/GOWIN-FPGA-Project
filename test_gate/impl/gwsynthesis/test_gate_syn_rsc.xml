@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="test_gate" Lut="3" T_Lut="6(3)">
+ <SubModule name="gates_inst1" Lut="3" T_Lut="3(3)"/>
+</Module>

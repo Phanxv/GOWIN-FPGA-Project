@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="stopwatch" T_Register="90(0)" T_Lut="219(0)">
+ <SubModule name="clkdiv_inst1" Register="20" Lut="40" T_Register="20(20)" T_Lut="40(40)"/>
+ <SubModule name="clkdiv_inst2" Register="19" Lut="42" T_Register="19(19)" T_Lut="42(42)"/>
+ <SubModule name="clkdiv_inst3" Register="18" Lut="40" T_Register="18(18)" T_Lut="40(40)"/>
+ <SubModule name="debounce_inst1" Register="1" T_Register="1(1)"/>
+ <SubModule name="toggle_inst1" Register="2" Lut="1" T_Register="2(2)" T_Lut="1(1)"/>
+ <SubModule name="cntr4maxe_inst1" Register="4" Lut="8" T_Register="4(4)" T_Lut="8(8)"/>
+ <SubModule name="cntr4max_inst1" Register="4" Lut="7" T_Register="4(4)" T_Lut="7(7)"/>
+ <SubModule name="cntr4max_inst2" Register="4" Lut="7" T_Register="4(4)" T_Lut="7(7)"/>
+ <SubModule name="cntr4max_inst3" Register="4" Lut="7" T_Register="4(4)" T_Lut="7(7)"/>
+ <SubModule name="decled_inst1" Lut="8" T_Lut="8(8)"/>
+ <SubModule name="mux7seg_inst1" Register="14" Lut="59" T_Register="14(14)" T_Lut="59(59)"/>
+</Module>

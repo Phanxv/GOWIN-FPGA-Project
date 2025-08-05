@@ -1,0 +1,132 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+  "InstLine" : 1,
+  "InstName" : "stopwatch",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "stopwatch",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 27,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 28,
+    "InstName" : "clkdiv_inst2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 29,
+    "InstName" : "clkdiv_inst3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 31,
+    "InstName" : "debounce_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/debounce.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 32,
+    "InstName" : "toggle_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/toggle.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "toggle"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 34,
+    "InstName" : "cntr4maxe_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/cntr4maxe.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4maxe"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 35,
+    "InstName" : "cntr4max_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 36,
+    "InstName" : "cntr4max_inst2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 37,
+    "InstName" : "cntr4max_inst3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 39,
+    "InstName" : "decled_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/decled.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "decled"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 40,
+    "InstName" : "drv7seg4_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 41,
+    "InstName" : "drv7seg4_inst2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 42,
+    "InstName" : "drv7seg4_inst3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 43,
+    "InstName" : "drv7seg4_inst4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/stopwatch.sv",
+    "InstLine" : 45,
+    "InstName" : "mux7seg_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_stopwatch/src/mux7seg.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux7seg"
+   }
+  ]
+ }
+]

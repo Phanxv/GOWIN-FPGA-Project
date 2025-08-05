@@ -1,0 +1,323 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 (64-bit)"
+//Tue Aug  5 10:14:32 2025
+
+//Source file index table:
+//file0 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/decled.sv"
+//file1 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/drv7seg4.sv"
+//file2 "\C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_decled/src/test_decled.sv"
+`timescale 100 ps/100 ps
+module decled (
+  in_d,
+  led_d_Z_Z,
+  led_0_31,
+  led_3_17,
+  led_d_7_6,
+  led_d_1,
+  led_d_2,
+  led_d_4,
+  led_d_5,
+  led_d_6
+)
+;
+input [2:0] in_d;
+input [7:7] led_d_Z_Z;
+output led_0_31;
+output led_3_17;
+output led_d_7_6;
+output led_d_1;
+output led_d_2;
+output led_d_4;
+output led_d_5;
+output led_d_6;
+wire VCC;
+wire GND;
+  LUT4 led_6_s16 (
+    .F(led_d_6),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam led_6_s16.INIT=16'hFE7F;
+  LUT3 led_5_s8 (
+    .F(led_d_5),
+    .I0(in_d[1]),
+    .I1(in_d[2]),
+    .I2(led_d_Z_Z[7]) 
+);
+defparam led_5_s8.INIT=8'h17;
+  LUT4 led_4_s16 (
+    .F(led_d_4),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam led_4_s16.INIT=16'hFF9F;
+  LUT4 led_d_2_s (
+    .F(led_d_2),
+    .I0(led_d_Z_Z[7]),
+    .I1(in_d[1]),
+    .I2(in_d[0]),
+    .I3(in_d[2]) 
+);
+defparam led_d_2_s.INIT=16'h54BF;
+  LUT3 led_d_1_s (
+    .F(led_d_1),
+    .I0(led_d_Z_Z[7]),
+    .I1(in_d[2]),
+    .I2(in_d[1]) 
+);
+defparam led_d_1_s.INIT=8'h4F;
+  LUT4 led_0_s23 (
+    .F(led_0_31),
+    .I0(in_d[2]),
+    .I1(in_d[1]),
+    .I2(led_d_Z_Z[7]),
+    .I3(in_d[0]) 
+);
+defparam led_0_s23.INIT=16'h1EFB;
+  LUT3 led_3_s11 (
+    .F(led_3_17),
+    .I0(led_d_Z_Z[7]),
+    .I1(in_d[2]),
+    .I2(in_d[1]) 
+);
+defparam led_3_s11.INIT=8'h53;
+  INV led_d_7_s0 (
+    .O(led_d_7_6),
+    .I(led_d_Z_Z[7]) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* decled */
+module drv7seg4 (
+  in_d,
+  led_d_Z_Z,
+  seg_d
+)
+;
+input [2:0] in_d;
+input [7:7] led_d_Z_Z;
+output [7:1] seg_d;
+wire VCC;
+wire GND;
+  LUT4 seg_7_s16 (
+    .F(seg_d[7]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam seg_7_s16.INIT=16'hD7ED;
+  LUT4 seg_6_s16 (
+    .F(seg_d[6]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam seg_6_s16.INIT=16'h279F;
+  LUT4 seg_5_s16 (
+    .F(seg_d[5]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam seg_5_s16.INIT=16'h2FFB;
+  LUT4 seg_4_s16 (
+    .F(seg_d[4]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam seg_4_s16.INIT=16'h7B6D;
+  LUT4 seg_3_s16 (
+    .F(seg_d[3]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam seg_3_s16.INIT=16'hFD45;
+  LUT4 seg_2_s16 (
+    .F(seg_d[2]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam seg_2_s16.INIT=16'hDF71;
+  LUT4 seg_1_s16 (
+    .F(seg_d[1]),
+    .I0(in_d[0]),
+    .I1(in_d[1]),
+    .I2(in_d[2]),
+    .I3(led_d_Z_Z[7]) 
+);
+defparam seg_1_s16.INIT=16'hEF7C;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* drv7seg4 */
+module test_decled (
+  in,
+  dp,
+  seg,
+  led,
+  dig
+)
+;
+input [3:0] in;
+input dp;
+output [7:0] seg;
+output [7:0] led;
+output [3:0] dig;
+wire led_0_31;
+wire led_3_17;
+wire led_d_7_6;
+wire [2:0] in_d;
+wire [7:7] led_d_Z_Z;
+wire [0:0] seg_d;
+wire [6:1] led_d;
+wire [7:1] seg_d_0;
+wire VCC;
+wire GND;
+  IBUF in_0_ibuf (
+    .O(in_d[0]),
+    .I(in[0]) 
+);
+  IBUF in_1_ibuf (
+    .O(in_d[1]),
+    .I(in[1]) 
+);
+  IBUF in_2_ibuf (
+    .O(in_d[2]),
+    .I(in[2]) 
+);
+  IBUF in_3_ibuf (
+    .O(led_d_Z_Z[7]),
+    .I(in[3]) 
+);
+  IBUF dp_ibuf (
+    .O(seg_d[0]),
+    .I(dp) 
+);
+  OBUF seg_0_obuf (
+    .O(seg[0]),
+    .I(seg_d[0]) 
+);
+  OBUF seg_1_obuf (
+    .O(seg[1]),
+    .I(seg_d_0[1]) 
+);
+  OBUF seg_2_obuf (
+    .O(seg[2]),
+    .I(seg_d_0[2]) 
+);
+  OBUF seg_3_obuf (
+    .O(seg[3]),
+    .I(seg_d_0[3]) 
+);
+  OBUF seg_4_obuf (
+    .O(seg[4]),
+    .I(seg_d_0[4]) 
+);
+  OBUF seg_5_obuf (
+    .O(seg[5]),
+    .I(seg_d_0[5]) 
+);
+  OBUF seg_6_obuf (
+    .O(seg[6]),
+    .I(seg_d_0[6]) 
+);
+  OBUF seg_7_obuf (
+    .O(seg[7]),
+    .I(seg_d_0[7]) 
+);
+  OBUF led_0_obuf (
+    .O(led[0]),
+    .I(led_0_31) 
+);
+  OBUF led_1_obuf (
+    .O(led[1]),
+    .I(led_d[1]) 
+);
+  OBUF led_2_obuf (
+    .O(led[2]),
+    .I(led_d[2]) 
+);
+  OBUF led_3_obuf (
+    .O(led[3]),
+    .I(led_3_17) 
+);
+  OBUF led_4_obuf (
+    .O(led[4]),
+    .I(led_d[4]) 
+);
+  OBUF led_5_obuf (
+    .O(led[5]),
+    .I(led_d[5]) 
+);
+  OBUF led_6_obuf (
+    .O(led[6]),
+    .I(led_d[6]) 
+);
+  OBUF led_7_obuf (
+    .O(led[7]),
+    .I(led_d_7_6) 
+);
+  OBUF dig_0_obuf (
+    .O(dig[0]),
+    .I(GND) 
+);
+  OBUF dig_1_obuf (
+    .O(dig[1]),
+    .I(VCC) 
+);
+  OBUF dig_2_obuf (
+    .O(dig[2]),
+    .I(VCC) 
+);
+  OBUF dig_3_obuf (
+    .O(dig[3]),
+    .I(VCC) 
+);
+  decled decled_inst1 (
+    .in_d(in_d[2:0]),
+    .led_d_Z_Z(led_d_Z_Z[7]),
+    .led_0_31(led_0_31),
+    .led_3_17(led_3_17),
+    .led_d_7_6(led_d_7_6),
+    .led_d_1(led_d[1]),
+    .led_d_2(led_d[2]),
+    .led_d_4(led_d[4]),
+    .led_d_5(led_d[5]),
+    .led_d_6(led_d[6])
+);
+  drv7seg4 drv7seg4_inst1 (
+    .in_d(in_d[2:0]),
+    .led_d_Z_Z(led_d_Z_Z[7]),
+    .seg_d(seg_d_0[7:1])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* test_decled */

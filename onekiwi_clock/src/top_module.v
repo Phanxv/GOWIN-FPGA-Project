@@ -8,7 +8,7 @@ module top_module (
 
     always @(posedge i_clk_27mhz) begin
         clk_counter <= clk_counter + 1;
-        if (clk_counter == 1_687_500) begin
+        if (clk_counter == 3_375_000) begin
             clk_counter <= 0;
             counter <= counter + 1;
             if(counter == 4'd3) begin

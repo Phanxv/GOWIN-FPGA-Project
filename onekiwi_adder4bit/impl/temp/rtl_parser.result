@@ -1,0 +1,168 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+  "InstLine" : 1,
+  "InstName" : "test_add4bit",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_add4bit",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+    "InstLine" : 16,
+    "InstName" : "clkdiv_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+    "InstLine" : 18,
+    "InstName" : "add4bit_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/add4bit.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "add4bit",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/add4bit.sv",
+      "InstLine" : 9,
+      "InstName" : "half_adder_inst1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/half_adder.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "half_adder"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/add4bit.sv",
+      "InstLine" : 10,
+      "InstName" : "full_adder_inst1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/full_adder.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/add4bit.sv",
+      "InstLine" : 11,
+      "InstName" : "full_adder_inst2",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/full_adder.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/add4bit.sv",
+      "InstLine" : 12,
+      "InstName" : "full_adder_inst3",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/full_adder.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+    "InstLine" : 20,
+    "InstName" : "drv7seg4_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+    "InstLine" : 21,
+    "InstName" : "drv7seg4_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+    "InstLine" : 22,
+    "InstName" : "drv7seg4_3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+    "InstLine" : 23,
+    "InstName" : "drv7seg4_4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit.sv",
+    "InstLine" : 25,
+    "InstName" : "mux7seg_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/mux7seg.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux7seg"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+  "InstLine" : 1,
+  "InstName" : "test_add4bit_hdl",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_add4bit_hdl",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+    "InstLine" : 16,
+    "InstName" : "clkdiv_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+    "InstLine" : 18,
+    "InstName" : "add4bit_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/add4bit_hdl.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "add4bit_hdl"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+    "InstLine" : 20,
+    "InstName" : "drv7seg4_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+    "InstLine" : 21,
+    "InstName" : "drv7seg4_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+    "InstLine" : 22,
+    "InstName" : "drv7seg4_3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+    "InstLine" : 23,
+    "InstName" : "drv7seg4_4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/test_add4bit_hdl.sv",
+    "InstLine" : 25,
+    "InstName" : "mux7seg_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_adder4bit/src/mux7seg.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux7seg"
+   }
+  ]
+ }
+]

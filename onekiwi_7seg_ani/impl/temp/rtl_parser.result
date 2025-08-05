@@ -1,0 +1,56 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani.sv",
+  "InstLine" : 1,
+  "InstName" : "seg7ani",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "seg7ani",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani.sv",
+    "InstLine" : 12,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani_2seg.sv",
+  "InstLine" : 1,
+  "InstName" : "seg7ani_2seg",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani_2seg.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "seg7ani_2seg",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani_2seg.sv",
+    "InstLine" : 12,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani_4seg.sv",
+  "InstLine" : 1,
+  "InstName" : "seg7ani_4seg",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani_4seg.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "seg7ani_4seg",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/seg7ani_4seg.sv",
+    "InstLine" : 12,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_7seg_ani/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   }
+  ]
+ }
+]
