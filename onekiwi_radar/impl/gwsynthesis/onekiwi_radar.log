@@ -1,0 +1,59 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\clkdiv.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\cntr4max.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\count16.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\dec16to4.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\decdiv.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\drv7seg4.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\keyedge.sv'
+WARN  (EX3792) : Literal value 'b10 truncated to fit in 1 bits("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\keyedge.sv":18)
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\keyenc.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\ledact.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\matrix_key.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\mux7seg.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\org7seg.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\organ.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\orgled.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\pwm.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\radar.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\shift_seg.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\tonegen.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\top.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\ultrasonic_led.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\ultrasonic_servo.sv'
+Compiling module 'radar'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\radar.sv":1)
+Compiling module 'clkdiv'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\clkdiv.sv":1)
+Compiling module 'count16'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\count16.sv":1)
+Compiling module 'pwm'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\pwm.sv":1)
+WARN  (EX3670) : Actual bit length 8 differs from formal bit length 16 for port 'compare'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\radar.sv":49)
+Compiling module 'disp_dist'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv":1)
+Compiling module 'drv7seg4'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\drv7seg4.sv":1)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 4 for port 'in'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv":25)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 4 for port 'in'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv":26)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 4 for port 'in'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv":27)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 4 for port 'in'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv":28)
+Compiling module 'mux7seg'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\mux7seg.sv":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\radar.sv":96)
+Compiling module 'tonegen'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\tonegen.sv":1)
+NOTE  (EX0101) : Current top module is "radar"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\impl\gwsynthesis\onekiwi_radar.vg" completed
+[100%] Generate report file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\impl\gwsynthesis\onekiwi_radar_syn.rpt.html" completed
+GowinSynthesis finish

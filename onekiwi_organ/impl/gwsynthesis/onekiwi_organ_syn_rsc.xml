@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="organ" T_Register="169(0)" T_Lut="419(0)">
+ <SubModule name="clkdiv_1" Register="23" Lut="75" T_Register="23(23)" T_Lut="75(75)"/>
+ <SubModule name="clkdiv_2" Register="21" Lut="55" T_Register="21(21)" T_Lut="55(55)"/>
+ <SubModule name="clkdiv_3" Register="18" Lut="42" T_Register="18(18)" T_Lut="42(42)"/>
+ <SubModule name="matrix_key_1" Register="40" Lut="33" T_Register="40(40)" T_Lut="33(33)"/>
+ <SubModule name="keyenc_1" Register="4" Lut="4" T_Register="4(4)" T_Lut="32(4)">
+  <SubModule name="dec16to4_1" Lut="28" T_Lut="28(28)"/>
+ </SubModule>
+ <SubModule name="keyedge_1" Register="2" Lut="1" T_Register="2(2)" T_Lut="1(1)"/>
+ <SubModule name="decdiv_1" Lut="15" T_Lut="15(15)"/>
+ <SubModule name="tonegen_1" Register="27" Lut="82" T_Register="27(27)" T_Lut="82(82)"/>
+ <SubModule name="ledact_1" Register="4" Lut="4" T_Register="4(4)" T_Lut="4(4)"/>
+ <SubModule name="orgled_1" Lut="12" T_Lut="12(12)"/>
+ <SubModule name="shift_seg_1" Register="16" T_Register="16(16)"/>
+ <SubModule name="org7seg_1" Lut="14" T_Lut="14(14)"/>
+ <SubModule name="mux7seg_1" Register="14" Lut="54" T_Register="14(14)" T_Lut="54(54)"/>
+</Module>

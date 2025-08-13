@@ -1,0 +1,32 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-1P5C" pn="GW1N-UV1P5QN48XFC7/I6">gw1n1p5c-020</Device>
+    <FileList>
+        <File path="src/clkdiv.sv" type="file.verilog" enable="1"/>
+        <File path="src/cntr4max.sv" type="file.verilog" enable="1"/>
+        <File path="src/count16.sv" type="file.verilog" enable="1"/>
+        <File path="src/dec16to4.sv" type="file.verilog" enable="1"/>
+        <File path="src/decdiv.sv" type="file.verilog" enable="1"/>
+        <File path="src/disp_dist.sv" type="file.verilog" enable="1"/>
+        <File path="src/drv7seg4.sv" type="file.verilog" enable="1"/>
+        <File path="src/keyedge.sv" type="file.verilog" enable="1"/>
+        <File path="src/keyenc.sv" type="file.verilog" enable="1"/>
+        <File path="src/ledact.sv" type="file.verilog" enable="1"/>
+        <File path="src/matrix_key.sv" type="file.verilog" enable="1"/>
+        <File path="src/mux7seg.sv" type="file.verilog" enable="1"/>
+        <File path="src/org7seg.sv" type="file.verilog" enable="1"/>
+        <File path="src/organ.sv" type="file.verilog" enable="1"/>
+        <File path="src/orgled.sv" type="file.verilog" enable="1"/>
+        <File path="src/pwm.sv" type="file.verilog" enable="1"/>
+        <File path="src/radar.sv" type="file.verilog" enable="1"/>
+        <File path="src/shift_seg.sv" type="file.verilog" enable="1"/>
+        <File path="src/tonegen.sv" type="file.verilog" enable="1"/>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="src/ultrasonic_led.sv" type="file.verilog" enable="1"/>
+        <File path="src/ultrasonic_servo.sv" type="file.verilog" enable="1"/>
+        <File path="src/onekiwi_radar.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

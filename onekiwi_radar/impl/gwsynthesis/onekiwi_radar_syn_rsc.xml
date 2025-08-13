@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="radar" Register="59" Alu="122" Lut="63" T_Register="197(59)" T_Alu="145(122)" T_Lut="961(63)">
+ <SubModule name="clkdiv_1" Register="6" Lut="8" T_Register="6(6)" T_Lut="8(8)"/>
+ <SubModule name="clkdiv_2" Register="19" Lut="32" T_Register="19(19)" T_Lut="32(32)"/>
+ <SubModule name="count16_1" Register="16" Alu="15" Lut="2" T_Register="16(16)" T_Alu="15(15)" T_Lut="2(2)"/>
+ <SubModule name="clkdiv_3" Register="10" Lut="19" T_Register="10(10)" T_Lut="19(19)"/>
+ <SubModule name="pwm_inst1" Register="18" Alu="8" Lut="31" T_Register="18(18)" T_Alu="8(8)" T_Lut="31(31)"/>
+ <SubModule name="disp_dist_1" Register="11" Lut="103" T_Register="42(11)" T_Lut="240(103)">
+  <SubModule name="clkdiv_3" Register="18" Lut="36" T_Register="18(18)" T_Lut="36(36)"/>
+  <SubModule name="drv7seg4_1" Lut="5" T_Lut="5(5)"/>
+  <SubModule name="drv7seg4_2" Lut="22" T_Lut="22(22)"/>
+  <SubModule name="drv7seg4_3" Lut="12" T_Lut="12(12)"/>
+  <SubModule name="drv7seg4_4" Lut="16" T_Lut="16(16)"/>
+  <SubModule name="mux7seg_1" Register="13" Lut="46" T_Register="13(13)" T_Lut="46(46)"/>
+ </SubModule>
+ <SubModule name="tonegen_1" Register="27" Lut="566" T_Register="27(27)" T_Lut="566(566)"/>
+</Module>

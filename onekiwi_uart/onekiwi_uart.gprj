@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-1P5C" pn="GW1N-UV1P5QN48XFC7/I6">gw1n1p5c-020</Device>
+    <FileList>
+        <File path="src/clkdiv.sv" type="file.verilog" enable="1"/>
+        <File path="src/debounce.sv" type="file.verilog" enable="1"/>
+        <File path="src/drv7seg4.sv" type="file.verilog" enable="1"/>
+        <File path="src/mux7seg.sv" type="file.verilog" enable="1"/>
+        <File path="src/rx.sv" type="file.verilog" enable="1"/>
+        <File path="src/test_uart.sv" type="file.verilog" enable="1"/>
+        <File path="src/tx.sv" type="file.verilog" enable="1"/>
+        <File path="src/tx_rx.sv" type="file.verilog" enable="1"/>
+        <File path="src/onekiwi_uart.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

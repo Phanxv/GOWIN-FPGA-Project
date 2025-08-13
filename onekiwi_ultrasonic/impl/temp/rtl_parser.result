@@ -1,0 +1,310 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/top.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/top.sv",
+    "InstLine" : 26,
+    "InstName" : "clkdiv_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/top.sv",
+    "InstLine" : 27,
+    "InstName" : "clkdiv_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/top.sv",
+    "InstLine" : 29,
+    "InstName" : "count16_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/count16.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "count16"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/top.sv",
+    "InstLine" : 31,
+    "InstName" : "disp_dist_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "disp_dist",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 15,
+      "InstName" : "clkdiv_3",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "clkdiv"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 25,
+      "InstName" : "drv7seg4_1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 26,
+      "InstName" : "drv7seg4_2",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 27,
+      "InstName" : "drv7seg4_3",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 28,
+      "InstName" : "drv7seg4_4",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 30,
+      "InstName" : "mux7seg_1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/mux7seg.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "mux7seg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_led.sv",
+  "InstLine" : 1,
+  "InstName" : "ultrasonic_led",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_led.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "ultrasonic_led",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_led.sv",
+    "InstLine" : 34,
+    "InstName" : "clkdiv_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_led.sv",
+    "InstLine" : 35,
+    "InstName" : "clkdiv_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_led.sv",
+    "InstLine" : 37,
+    "InstName" : "clkdiv_3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_led.sv",
+    "InstLine" : 38,
+    "InstName" : "count16_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/count16.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "count16"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_led.sv",
+    "InstLine" : 39,
+    "InstName" : "cntr4max_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_led.sv",
+    "InstLine" : 41,
+    "InstName" : "disp_dist_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "disp_dist",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 15,
+      "InstName" : "clkdiv_3",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "clkdiv"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 25,
+      "InstName" : "drv7seg4_1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 26,
+      "InstName" : "drv7seg4_2",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 27,
+      "InstName" : "drv7seg4_3",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 28,
+      "InstName" : "drv7seg4_4",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 30,
+      "InstName" : "mux7seg_1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/mux7seg.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "mux7seg"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_servo.sv",
+  "InstLine" : 1,
+  "InstName" : "ultrasonic_servo",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_servo.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "ultrasonic_servo",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_servo.sv",
+    "InstLine" : 37,
+    "InstName" : "clkdiv_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_servo.sv",
+    "InstLine" : 38,
+    "InstName" : "clkdiv_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_servo.sv",
+    "InstLine" : 40,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_servo.sv",
+    "InstLine" : 41,
+    "InstName" : "pwm_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/pwm.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "pwm"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_servo.sv",
+    "InstLine" : 43,
+    "InstName" : "count16_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/count16.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "count16"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/ultrasonic_servo.sv",
+    "InstLine" : 45,
+    "InstName" : "disp_dist_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "disp_dist",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 15,
+      "InstName" : "clkdiv_3",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/clkdiv.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "clkdiv"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 25,
+      "InstName" : "drv7seg4_1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 26,
+      "InstName" : "drv7seg4_2",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 27,
+      "InstName" : "drv7seg4_3",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 28,
+      "InstName" : "drv7seg4_4",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/drv7seg4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "drv7seg4"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/disp_dist.sv",
+      "InstLine" : 30,
+      "InstName" : "mux7seg_1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_ultrasonic/src/mux7seg.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "mux7seg"
+     }
+    ]
+   }
+  ]
+ }
+]

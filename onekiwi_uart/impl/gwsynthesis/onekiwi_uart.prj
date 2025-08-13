@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-1P5C" package="QFN48XF" speed="7" partNumber="GW1N-UV1P5QN48XFC7/I6"/>
+    <FileList>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\clkdiv.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\debounce.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\drv7seg4.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\mux7seg.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\rx.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\test_uart.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\tx.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\tx_rx.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\impl\gwsynthesis\onekiwi_uart.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="test_uart"/>
+        <Option type="vcc" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

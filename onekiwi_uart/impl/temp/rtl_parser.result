@@ -1,0 +1,134 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+  "InstLine" : 1,
+  "InstName" : "test_uart",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "test_uart",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 28,
+    "InstName" : "clkdiv_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 29,
+    "InstName" : "clkdiv_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 30,
+    "InstName" : "clkdiv_3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 31,
+    "InstName" : "clkdiv_4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 33,
+    "InstName" : "debounce_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/debounce.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 35,
+    "InstName" : "tx_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/tx.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "tx"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 37,
+    "InstName" : "rx_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/rx.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "rx"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 39,
+    "InstName" : "drv7seg4_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 40,
+    "InstName" : "drv7seg4_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 41,
+    "InstName" : "drv7seg4_3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 42,
+    "InstName" : "drv7seg4_4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+    "InstLine" : 43,
+    "InstName" : "mux7seg_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/mux7seg.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux7seg"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/tx_rx.sv",
+  "InstLine" : 1,
+  "InstName" : "tx_rx",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/tx_rx.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "tx_rx",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/tx_rx.sv",
+    "InstLine" : 13,
+    "InstName" : "tx_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/tx.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "tx"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/tx_rx.sv",
+    "InstLine" : 15,
+    "InstName" : "rx_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/rx.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "rx"
+   }
+  ]
+ }
+]

@@ -1,0 +1,134 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+  "InstLine" : 1,
+  "InstName" : "leg4sys",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "leg4sys",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 46,
+    "InstName" : "clkdiv_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 47,
+    "InstName" : "debounce_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/debounce.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 49,
+    "InstName" : "clkdiv_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 50,
+    "InstName" : "clkdiv_3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 52,
+    "InstName" : "leg_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "leg4",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4.sv",
+      "InstLine" : 27,
+      "InstName" : "pc_1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/pc.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "pc"
+     },
+     {
+      "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4.sv",
+      "InstLine" : 28,
+      "InstName" : "alu_1",
+      "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/alu.sv",
+      "ModuleLine" : 14,
+      "ModuleName" : "alu"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 54,
+    "InstName" : "clkdiv_4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 56,
+    "InstName" : "leg4_rom_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4_rom.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "leg4_rom"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 58,
+    "InstName" : "drv7seg4_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 59,
+    "InstName" : "drv7seg4_2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 60,
+    "InstName" : "drv7seg4_3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 61,
+    "InstName" : "drv7seg4_4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/drv7seg4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg4"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 63,
+    "InstName" : "clkdiv_5",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+    "InstLine" : 65,
+    "InstName" : "mux7seg_1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/mux7seg.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux7seg"
+   }
+  ]
+ }
+]

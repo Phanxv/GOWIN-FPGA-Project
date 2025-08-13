@@ -1,0 +1,156 @@
+[
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_servo.sv",
+  "InstLine" : 1,
+  "InstName" : "pwm_servo",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_servo.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "pwm_servo",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_servo.sv",
+    "InstLine" : 21,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_servo.sv",
+    "InstLine" : 23,
+    "InstName" : "pwm_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "pwm"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_servo_auto.sv",
+  "InstLine" : 1,
+  "InstName" : "pwm_servo_auto",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_servo_auto.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "pwm_servo_auto",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_servo_auto.sv",
+    "InstLine" : 21,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_servo_auto.sv",
+    "InstLine" : 23,
+    "InstName" : "pwm_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "pwm"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test1.sv",
+  "InstLine" : 1,
+  "InstName" : "pwm_test1",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test1.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "pwm_test1",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test1.sv",
+    "InstLine" : 15,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test1.sv",
+    "InstLine" : 17,
+    "InstName" : "cntr4max_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test1.sv",
+    "InstLine" : 18,
+    "InstName" : "cntr4max_inst2",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test1.sv",
+    "InstLine" : 19,
+    "InstName" : "cntr4max_inst3",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test1.sv",
+    "InstLine" : 20,
+    "InstName" : "cntr4max_inst4",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test2.sv",
+  "InstLine" : 1,
+  "InstName" : "pwm_test2",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test2.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "pwm_test2",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test2.sv",
+    "InstLine" : 15,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test2.sv",
+    "InstLine" : 17,
+    "InstName" : "cntr4max_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test3.sv",
+  "InstLine" : 1,
+  "InstName" : "pwm_test3",
+  "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test3.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "pwm_test3",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test3.sv",
+    "InstLine" : 16,
+    "InstName" : "clkdiv_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/clkdiv.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "clkdiv"
+   },
+   {
+    "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/pwm_test3.sv",
+    "InstLine" : 18,
+    "InstName" : "cntr4max_inst1",
+    "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_pwm/src/cntr4max.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cntr4max"
+   }
+  ]
+ }
+]

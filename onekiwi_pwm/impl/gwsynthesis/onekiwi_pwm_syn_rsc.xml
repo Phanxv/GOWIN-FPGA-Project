@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="pwm_servo_auto" Register="36" Alu="34" Lut="28" T_Register="64(36)" T_Alu="42(34)" T_Lut="79(28)">
+ <SubModule name="clkdiv_inst1" Register="10" Lut="18" T_Register="10(10)" T_Lut="18(18)"/>
+ <SubModule name="pwm_inst1" Register="18" Alu="8" Lut="33" T_Register="18(18)" T_Alu="8(8)" T_Lut="33(33)"/>
+</Module>

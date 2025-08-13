@@ -1,0 +1,45 @@
+{
+ "Device" : "GW1N-1P5C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/clkdiv.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/debounce.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/drv7seg4.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/mux7seg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/rx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/test_uart.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/tx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/src/tx_rx.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_uart/impl/temp/rtl_parser.result",
+ "Top" : "test_uart",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="leg4sys" Lut="8" T_Register="129(0)" T_Alu="4(0)" T_Lut="349(8)">
+ <SubModule name="clkdiv_1" Register="18" Lut="38" T_Register="18(18)" T_Lut="38(38)"/>
+ <SubModule name="debounce_1" Register="1" T_Register="1(1)"/>
+ <SubModule name="clkdiv_2" Register="23" Lut="64" T_Register="23(23)" T_Lut="64(64)"/>
+ <SubModule name="clkdiv_3" Register="26" Lut="59" T_Register="26(26)" T_Lut="59(59)"/>
+ <SubModule name="leg_1" Register="9" T_Register="13(9)" T_Alu="4(0)" T_Lut="27(0)">
+  <SubModule name="pc_1" Register="4" Lut="6" T_Register="4(4)" T_Lut="6(6)"/>
+  <SubModule name="alu_1" Alu="4" Lut="21" T_Alu="4(4)" T_Lut="21(21)"/>
+ </SubModule>
+ <SubModule name="clkdiv_4" Register="16" Lut="36" T_Register="16(16)" T_Lut="36(36)"/>
+ <SubModule name="leg4_rom_1" Lut="8" T_Lut="8(8)"/>
+ <SubModule name="drv7seg4_1" Lut="10" T_Lut="10(10)"/>
+ <SubModule name="drv7seg4_2" Lut="7" T_Lut="7(7)"/>
+ <SubModule name="drv7seg4_3" Lut="5" T_Lut="5(5)"/>
+ <SubModule name="drv7seg4_4" Lut="10" T_Lut="10(10)"/>
+ <SubModule name="clkdiv_5" Register="18" Lut="38" T_Register="18(18)" T_Lut="38(38)"/>
+ <SubModule name="mux7seg_1" Register="14" Lut="39" T_Register="14(14)" T_Lut="39(39)"/>
+</Module>

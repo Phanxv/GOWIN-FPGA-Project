@@ -1,0 +1,43 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\clkdiv.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\debounce.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\drv7seg4.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\mux7seg.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\rx.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\test_uart.sv'
+Undeclared symbol 'clk270hz', assumed default net type 'wire'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\test_uart.sv":31)
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\tx.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\tx_rx.sv'
+Undeclared symbol 'txd', assumed default net type 'wire'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\tx_rx.sv":15)
+Compiling module 'test_uart'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\test_uart.sv":1)
+Compiling module 'clkdiv'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\clkdiv.sv":1)
+Compiling module 'debounce'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\debounce.sv":1)
+Compiling module 'tx'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\tx.sv":1)
+Compiling module 'rx'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\rx.sv":1)
+Compiling module 'drv7seg4'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\drv7seg4.sv":1)
+Compiling module 'mux7seg'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\mux7seg.sv":1)
+NOTE  (EX0101) : Current top module is "test_uart"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "drv7seg4" instantiated to "drv7seg4_1" is swept in optimizing("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\test_uart.sv":39)
+WARN  (NL0002) : The module "drv7seg4" instantiated to "drv7seg4_2" is swept in optimizing("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\test_uart.sv":40)
+WARN  (NL0002) : The module "drv7seg4" instantiated to "drv7seg4_3" is swept in optimizing("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\test_uart.sv":41)
+WARN  (NL0002) : The module "drv7seg4" instantiated to "drv7seg4_4" is swept in optimizing("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\src\test_uart.sv":42)
+[95%] Generate netlist file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\impl\gwsynthesis\onekiwi_uart.vg" completed
+[100%] Generate report file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_uart\impl\gwsynthesis\onekiwi_uart_syn.rpt.html" completed
+GowinSynthesis finish

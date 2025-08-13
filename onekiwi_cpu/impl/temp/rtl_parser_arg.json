@@ -1,0 +1,49 @@
+{
+ "Device" : "GW1N-1P5C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/pc.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/alu.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4sys.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/clkdiv.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/debounce.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/drv7seg4.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/mux7seg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/src/leg4_rom.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_cpu/impl/temp/rtl_parser.result",
+ "Top" : "leg4sys",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

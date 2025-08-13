@@ -2,15 +2,11 @@
  "Device" : "GW1N-1P5C",
  "Files" : [
   {
-   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/matrix_key.sv",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
-   "Type" : "verilog"
-  },
-  {
    "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/clkdiv.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/dec16to4.sv",
    "Type" : "verilog"
   },
   {
@@ -18,7 +14,11 @@
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/dec16to4.sv",
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/matrix_key.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
    "Type" : "verilog"
   }
  ],

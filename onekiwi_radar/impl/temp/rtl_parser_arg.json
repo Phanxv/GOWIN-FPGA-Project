@@ -1,0 +1,101 @@
+{
+ "Device" : "GW1N-1P5C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/clkdiv.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/cntr4max.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/count16.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/dec16to4.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/decdiv.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/disp_dist.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/drv7seg4.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/keyedge.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/keyenc.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/ledact.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/matrix_key.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/mux7seg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/org7seg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/organ.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/orgled.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/pwm.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/radar.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/shift_seg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/tonegen.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/ultrasonic_led.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/ultrasonic_servo.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/impl/temp/rtl_parser.result",
+ "Top" : "radar",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

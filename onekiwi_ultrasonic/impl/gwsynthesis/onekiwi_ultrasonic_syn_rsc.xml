@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ultrasonic_led" Register="23" Lut="105" T_Register="126(23)" T_Alu="15(0)" T_Lut="417(105)">
+ <SubModule name="clkdiv_1" Register="6" Lut="8" T_Register="6(6)" T_Lut="8(8)"/>
+ <SubModule name="clkdiv_2" Register="19" Lut="31" T_Register="19(19)" T_Lut="31(31)"/>
+ <SubModule name="clkdiv_3" Register="16" Lut="26" T_Register="16(16)" T_Lut="26(26)"/>
+ <SubModule name="count16_1" Register="16" Alu="15" Lut="2" T_Register="16(16)" T_Alu="15(15)" T_Lut="2(2)"/>
+ <SubModule name="cntr4max_inst1" Register="4" Lut="6" T_Register="4(4)" T_Lut="6(6)"/>
+ <SubModule name="disp_dist_1" Register="11" Lut="103" T_Register="42(11)" T_Lut="239(103)">
+  <SubModule name="clkdiv_3" Register="18" Lut="35" T_Register="18(18)" T_Lut="35(35)"/>
+  <SubModule name="drv7seg4_1" Lut="7" T_Lut="7(7)"/>
+  <SubModule name="drv7seg4_2" Lut="17" T_Lut="17(17)"/>
+  <SubModule name="drv7seg4_3" Lut="17" T_Lut="17(17)"/>
+  <SubModule name="drv7seg4_4" Lut="11" T_Lut="11(11)"/>
+  <SubModule name="mux7seg_1" Register="13" Lut="49" T_Register="13(13)" T_Lut="49(49)"/>
+ </SubModule>
+</Module>

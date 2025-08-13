@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-1P5C" package="QFN48XF" speed="7" partNumber="GW1N-UV1P5QN48XFC7/I6"/>
+    <FileList>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\clkdiv.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\cntr4max.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\count16.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\dec16to4.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\decdiv.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\drv7seg4.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\keyedge.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\keyenc.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\ledact.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\matrix_key.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\mux7seg.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\org7seg.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\organ.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\orgled.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\pwm.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\radar.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\shift_seg.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\tonegen.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\top.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\ultrasonic_led.sv" type="verilog"/>
+        <File path="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\ultrasonic_servo.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\impl\gwsynthesis\onekiwi_radar.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="radar"/>
+        <Option type="vcc" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

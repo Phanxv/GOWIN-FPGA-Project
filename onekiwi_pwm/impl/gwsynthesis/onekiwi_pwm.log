@@ -1,0 +1,35 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\clkdiv.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\cntr4max.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm_test1.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm_test2.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm_test3.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm_servo.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm_servo_auto.sv'
+Compiling module 'pwm_servo_auto'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm_servo_auto.sv":1)
+Compiling module 'clkdiv'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\clkdiv.sv":1)
+Compiling module 'pwm'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm.sv":1)
+WARN  (EX3670) : Actual bit length 8 differs from formal bit length 16 for port 'compare'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm_servo_auto.sv":23)
+NOTE  (EX0101) : Current top module is "pwm_servo_auto"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input psw is unused("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\src\pwm_servo_auto.sv":4)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\impl\gwsynthesis\onekiwi_pwm.vg" completed
+[100%] Generate report file "C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_pwm\impl\gwsynthesis\onekiwi_pwm_syn.rpt.html" completed
+GowinSynthesis finish
