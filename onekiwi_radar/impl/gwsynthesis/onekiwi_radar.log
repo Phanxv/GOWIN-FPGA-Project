@@ -35,7 +35,7 @@ WARN  (EX3670) : Actual bit length 32 differs from formal bit length 4 for port 
 WARN  (EX3670) : Actual bit length 32 differs from formal bit length 4 for port 'in'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv":27)
 WARN  (EX3670) : Actual bit length 32 differs from formal bit length 4 for port 'in'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\disp_dist.sv":28)
 Compiling module 'mux7seg'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\mux7seg.sv":1)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\radar.sv":96)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\radar.sv":90)
 Compiling module 'tonegen'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_radar\src\tonegen.sv":1)
 NOTE  (EX0101) : Current top module is "radar"
 [5%] Running netlist conversion ...

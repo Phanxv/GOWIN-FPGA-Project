@@ -311,7 +311,7 @@
    },
    {
     "InstFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/radar.sv",
-    "InstLine" : 99,
+    "InstLine" : 102,
     "InstName" : "tonegen_1",
     "ModuleFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_radar/src/tonegen.sv",
     "ModuleLine" : 1,

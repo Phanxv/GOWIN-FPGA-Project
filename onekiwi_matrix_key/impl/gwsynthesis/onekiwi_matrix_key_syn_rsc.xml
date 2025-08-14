@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="test_matrix_key" T_Register="61(0)" T_Lut="125(0)">
- <SubModule name="clkdiv_inst1" Register="21" Lut="50" T_Register="21(21)" T_Lut="50(50)"/>
- <SubModule name="matrix_key_inst1" Register="40" Lut="33" T_Register="40(40)" T_Lut="33(33)"/>
- <SubModule name="dec16to4_inst1" Lut="35" T_Lut="35(35)"/>
+<Module name="matrix_key_input" Register="18" Alu="7" Lut="16" T_Register="78(18)" T_Alu="7(7)" T_Lut="130(16)">
+ <SubModule name="clkdiv_inst1" Register="21" Lut="45" T_Register="21(21)" T_Lut="45(45)"/>
+ <SubModule name="matrix_key_inst1" Register="39" Lut="33" T_Register="39(39)" T_Lut="33(33)"/>
+ <SubModule name="dec16to4_inst1" Lut="29" T_Lut="29(29)"/>
  <SubModule name="drv7seg4_inst1" Lut="7" T_Lut="7(7)"/>
 </Module>

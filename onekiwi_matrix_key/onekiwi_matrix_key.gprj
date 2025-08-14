@@ -9,6 +9,7 @@
         <File path="src/dec16to4.sv" type="file.verilog" enable="1"/>
         <File path="src/drv7seg4.sv" type="file.verilog" enable="1"/>
         <File path="src/matrix_key.sv" type="file.verilog" enable="1"/>
+        <File path="src/matrix_key_input.sv" type="file.verilog" enable="1"/>
         <File path="src/test_matrix_key.sv" type="file.verilog" enable="1"/>
         <File path="src/onekiwi_matrix_key.cst" type="file.cst" enable="1"/>
     </FileList>

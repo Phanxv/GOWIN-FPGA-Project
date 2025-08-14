@@ -1,16 +1,18 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\matrix_key.sv'
-Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\test_matrix_key.sv'
 Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\clkdiv.sv'
-Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\drv7seg4.sv'
 Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\dec16to4.sv'
-Compiling module 'test_matrix_key'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\test_matrix_key.sv":1)
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\drv7seg4.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\matrix_key.sv'
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\matrix_key_input.sv'
+Undeclared symbol 'ready', assumed default net type 'wire'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\matrix_key_input.sv":42)
+Analyzing Verilog file 'C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\test_matrix_key.sv'
+Compiling module 'matrix_key_input'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\matrix_key_input.sv":1)
 Compiling module 'clkdiv'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\clkdiv.sv":1)
 Compiling module 'matrix_key'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\matrix_key.sv":1)
 Compiling module 'dec16to4'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\dec16to4.sv":1)
 Compiling module 'drv7seg4'("C:\Users\pchulaka\Desktop\Documents\GOWIN-FPGA-Project\onekiwi_matrix_key\src\drv7seg4.sv":1)
-NOTE  (EX0101) : Current top module is "test_matrix_key"
+NOTE  (EX0101) : Current top module is "matrix_key_input"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed

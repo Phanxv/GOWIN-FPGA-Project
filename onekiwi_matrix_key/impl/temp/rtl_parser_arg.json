@@ -18,6 +18,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/matrix_key_input.sv",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/src/test_matrix_key.sv",
    "Type" : "verilog"
   }
@@ -27,7 +31,7 @@
  ],
  "LoopLimit" : 2000,
  "ResultFile" : "C:/Users/pchulaka/Desktop/Documents/GOWIN-FPGA-Project/onekiwi_matrix_key/impl/temp/rtl_parser.result",
- "Top" : "",
+ "Top" : "matrix_key_input",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
 }

@@ -13,7 +13,7 @@ module radar (
     parameter MAX1MHZ = 26'd26 ; 
     parameter MAX5HZ  = 26'd199_999 ; 
     parameter MAX100KHZ = 26'd269;
-    parameter MAX_SERVO_SPEED = 27'd539_999;
+    parameter MAX_SERVO_SPEED = 27'd1_079_999;
     parameter PWM50HZ = 16'd1999; 
 
     parameter ST_IDLE = 2'd0  ; 
@@ -86,16 +86,19 @@ module radar (
                     if(echo == 1'b0) begin
                         measure <= count;
                         state <= ST_IDLE;
+                        distance <= measure / 58;
+                        div <= 30681 + (((distance - 1) * 30682) / 49);
+                        bz_activate <= (distance < 8'd50) ? 1'b1 : 1'b0;
                     end
                 end
             endcase
         end
     end
 
-    assign distance = measure / 58;
-    assign div = 860 + (((distance - 1) * 37790) / 99);
-    assign bz_activate = (distance < 8'd100) ? 1'b1 : 1'b0;
-    
+//    assign distance = measure / 58;
+//    assign div = 860 + (((distance - 1) * 37790) / 99);
+//    assign bz_activate = (distance < 8'd100) ? 1'b1 : 1'b0;
+//    
     tonegen tonegen_1(.*, .key(bz_activate), .div({10'd0, div}), .bz(bz));
 
     always_ff @(negedge nrst or posedge clk) begin
